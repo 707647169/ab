@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 #include<ctime>
 #include<stdlib.h>
 using namespace std;
@@ -13,7 +13,7 @@ int main()
 		int k = rand() % 2;
 		sym = rand() % 4;
 
-		if (k == 1)   //-------------------ÕûÊıÔËËã
+		if (k == 1)   //-------------------æ•´æ•°è¿ç®—
 		{
 			if (sym == 0)
 			{
@@ -39,7 +39,7 @@ int main()
 			}
 		}
 
-		if (k == 0)   //-------------------Õæ·ÖÊıÔËËã
+		if (k == 0)   //-------------------çœŸåˆ†æ•°è¿ç®—
 		{
 			int a, b, c, d;
 			a = rand() % 100;
